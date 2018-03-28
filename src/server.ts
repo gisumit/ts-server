@@ -1,8 +1,8 @@
-interface User {
+interface IUser {
     name: string;
-    age?: Number;
+    age?: number;
 }
 
-const getName = (name: string, age: Number):User  => ({ name, age});
+const getName = (name: string, age: number): IUser  => ({ name, age});
 
-const sumit = getName('Sumit Ingole', 25); 
+const sumit = getName("Sumit Ingole", 25);
